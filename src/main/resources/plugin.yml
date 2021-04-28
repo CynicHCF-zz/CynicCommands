@@ -1,0 +1,37 @@
+name: CynicCommands
+main: com.cynichcf.commandhandler.CommandHandler
+version: 1.0
+author: ArcaneCiCi
+load: STARTUP
+
+commands:
+
+  staffmods:
+    description: Enable CheatBreaker 2017 Staff Mods for yourself, or others!
+    permission: cheatbreakerapi.staff
+    aliases:
+      - sm
+      - givestaffmods
+
+  cheatbreakerban:
+    description: CheatBreaker 2017 Admin only command.
+    aliases:
+      - cbban
+
+  tb:
+    description: Tempban a Player!
+    permission: "cynic.hcf"
+    aliases:
+      - tban
+
+  b:
+    description: Ban a Player!
+    permission: "cynic.hcf"
+
+  mp:
+    description: Mute a Player!
+    permission: "cynic.hcf"
+
+  shelp:
+    description: Displays all commands of this plugin!
+    permission: "cynic.hcf"
